@@ -45,7 +45,11 @@ export default function Product_detail({ statusCode, data, product_name }) {
         <>
 
             <Head>
-                <title>Ziniam | Product-Detail</title>
+
+                <title>Product-Detail | Ziniam Laminates</title>
+
+                {statusCode == 200 ? <meta name="description" content={ data.intro } /> : <></>}
+
             </Head>
 
             <main id="main">
@@ -165,7 +169,7 @@ export default function Product_detail({ statusCode, data, product_name }) {
                                             <div>
                                                 <blockquote className="testimonial">
                                                     <p>
-                                                    Ziniam laminates is an market leader in laminates distribution industry with unlimited options for customers to choose from. We have got wide range of products which dont only enhances the interior's presenability but freshens the complete aura of your surrounding. Have some glimps of our extraordinary colelction of laminates.
+                                                        Ziniam laminates is an market leader in laminates distribution industry with unlimited options for customers to choose from. We have got wide range of products which dont only enhances the interior's presenability but freshens the complete aura of your surrounding. Have some glimps of our extraordinary colelction of laminates.
                                                     </p>
                                                 </blockquote>
                                                 <div style={{ width: "100%", textAlign: "center", marginTop: "40px" }}>

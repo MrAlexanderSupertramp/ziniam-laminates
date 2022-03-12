@@ -102,7 +102,9 @@ function visualizer({ statusCode, data, res }) {
 
             <Head>
 
-                <title>Ziniam | Visualizer</title>
+                <title>Visualizer | Ziniam Laminates</title>
+
+                <meta name="description" content="Experience the world of beautiful designs first-hand with the help of our technologically advanced visualiser. Visualise the magic your space could withhold with us. " />
 
             </Head>   
 

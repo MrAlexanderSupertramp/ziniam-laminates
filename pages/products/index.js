@@ -55,7 +55,9 @@ export default function Products({ statusCode, data }) {
         
             <Head>
 
-                <title>Ziniam | Products</title>
+                <title>Products | Ziniam Laminates</title>
+
+                <meta name="description" content="Ziniam products of laminates and veneer provide with a wide range of shades, designs and finesses that promises to build you a home flooded with beauty and elegance. " />
 
             </Head>
 

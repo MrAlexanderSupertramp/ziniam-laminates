@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Footer() {
     return (
@@ -19,7 +20,7 @@ function Footer() {
                     
                     {/* <!-- Copyright --> */}
                     <div className="footer-copy">
-                        <a href="index-2.html">© Ziniam Laminates 2022</a>.
+                        <Link href="/"><a target="_blank">© Ziniam Laminates 2022.</a></Link>
                     </div>
                     
                     <div className="footer-made">

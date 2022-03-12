@@ -48,6 +48,8 @@ export default function Home() {
 
                 <title>Ziniam | Home</title>
 
+                <meta name="description" content="Ziniam Laminates provide with ample choices of laminate and veneer products which cater to global standards of interior designing requirements all over the country." />
+
             </Head>            
             
             {/* <!-- Page Wrap --> */}
@@ -243,7 +245,7 @@ export default function Home() {
                                         <dd>
                                         Some priceless quality products are completely affordable and laminates that we provide are one of them! Providing products that transform your homes into something amazing is what we love to do! All the finish ranges of our products bring a simple elegance and style to any home. 
                                         <br /><br /> 
-                                        We offer an extensive range of pre-finished laminates in a wide variety of natural types and colors. Combining the rigidness of vinyl with the durability of laminate, each sheet gives the best of both worlds. With all the options available, you can chose the beset one suitable for homes, offices and even commercial spaces. Undergone a minute and detailed style process, our sheets’ sustainability, durability and stylish nature make it popular among home owners and architects.
+                                        We offer an extensive range of pre-finished laminates in a wide variety of natural types and colors. Combining the rigidness of vinyl with the durability of laminate, each sheet gives the best of both worlds. With all the options available, you can choose the best one suitable for homes, offices and even commercial spaces. Undergone a minute and detailed style process, our sheet's sustainability, durability and stylish nature make it popular among home owners and architects.
                                         </dd>
                                     </dl>
                                     
@@ -312,7 +314,7 @@ export default function Home() {
                                         </div>
                                         <h3 className="services-title">Stain Resistant</h3>
                                         <div className="services-descr">
-                                            Our laminates are made from several different layers of materials. The upper layer of the substantial tested against all sorts if communal stains. 
+                                            Our laminates are made from several different layers of materials. The upper layer of the substantial is tested against all sorts if communal stains. 
                                         </div>
                                     </div>
                                 </div>
@@ -323,9 +325,9 @@ export default function Home() {
                                         <div className="services-icon">
                                             <img src="/images/features_tremite_free.svg" alt="" style={{ width: "200px", paddingBottom: "40px" }} />
                                         </div>
-                                        <h3 className="services-title">Wear Resistant</h3>
+                                        <h3 className="services-title">Termite Free</h3>
                                         <div className="services-descr">
-                                            Ziniam promises to deliver only the sheets that are, during production to extend the lifetime of the sheet. Laminate sheet is given an AC rating, which tells the consumer the durability of the floor.
+                                            Innovation, passion and grace - the laminate sheets that are made keeping these points in mind are also long lasting. Keeping free from termite and bacteria, the sheets stand adorable for ages!
                                         </div>
                                     </div>
                                 </div>

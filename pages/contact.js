@@ -97,7 +97,10 @@ export default function Contact() {
         
             <Head>
 
-                <title>Ziniam | Contact</title>
+                <title>Contact | Ziniam Laminates</title>
+
+                <meta name="description" content="Contact our experts for further information and for further guidance into the world of laminates, experience the world of interior design first-hand! " />
+
 
             </Head>
 
@@ -150,7 +153,7 @@ export default function Contact() {
                                                 Address
                                             </div>
                                             <div className="ci-text">
-                                                Gala No. 4, Gate No.1, Vichare Compound, Opp. Aura Hotel, Borivali West, Mumbai - 400092
+                                                Gala No. 6, Gate No. 3, Govind Mhatre Compound, Vichare Compound, Borivali West, Mumbai - 400092
                                             </div>
                                             <div className="ci-link">
                                                 <a href="https://goo.gl/maps/yCosKC9cMDVEkJSo6" target="_blank">See on the Map</a>
@@ -168,7 +171,7 @@ export default function Contact() {
                                                 Email
                                             </div>
                                             <div className="ci-text">
-                                                ziniamlaminates@gmail.com
+                                                info@ziniamlaminates.com
                                             </div>
                                             <div className="ci-link">
                                                 <a href="mailto:ziniamlaminates@gmail.com">Say Hello</a>
