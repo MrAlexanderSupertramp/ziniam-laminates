@@ -40,6 +40,8 @@ export default function Product_detail({ statusCode, data, product_name }) {
     // router definitaion
     const Router = useRouter()
     const current_path = Router.asPath
+
+    // console.log(product_name)
     
     return (
         <>
@@ -75,7 +77,7 @@ export default function Product_detail({ statusCode, data, product_name }) {
                         
                         
                         {/* <!-- About Section --> */}
-                        <section className="page-section pt-0">
+                        <section className="page-section pt-0 pb-0" >
                             <div className="container relative">
                                 
                                 <div className="mb-120 mb-sm-50 wow fadeInUpShort" data-wow-delay=".3s" style={{ textAlign: "center" }}>
@@ -96,97 +98,109 @@ export default function Product_detail({ statusCode, data, product_name }) {
                                     </div>
                                 </div>
                                 
-                                {/* <!-- Counters --> */}
-                                <div className="count-wrapper">
-                                    <div className="row">
-                                        
-                                        {/* <!-- Counter Item --> */}
-                                        <div className="col-md-4 col-lg-4 mb-md-30">
-                                            <div className="count-item">
-                                                <div className="count-bg wow scalexIn"></div>
-                                                <div className="relative wow fadeIn" data-wow-delay="1s">
-                                                    <div className="count-number">
-                                                        { data.sheet }
+                                {
+                                    product_name == 'multicol' ? 
+                                        <></>
+                                        :
+                                        <>
+                                            {/* <!-- Counters --> */}
+                                            <div className="count-wrapper mb-120 mb-sm-50">
+                                                <div className="row">
+                                                    
+                                                    {/* <!-- Counter Item --> */}
+                                                    <div className="col-md-4 col-lg-4 mb-md-30">
+                                                        <div className="count-item">
+                                                            <div className="count-bg wow scalexIn"></div>
+                                                            <div className="relative wow fadeIn" data-wow-delay="1s">
+                                                                <div className="count-number">
+                                                                    { data.sheet }
+                                                                </div>
+                                                                <div className="count-descr">
+                                                                    <span className="count-title">Full-Sheets</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div className="count-descr">
-                                                        <span className="count-title">Full-Sheets</span>
+                                                    
+                                                    {/* <!-- Counter Item --> */}
+                                                    <div className="col-md-4 col-lg-4 mb-md-30">
+                                                        <div className="count-item">
+                                                            <div className="count-bg wow scalexIn"></div>
+                                                            <div className="relative wow fadeIn" data-wow-delay="1.1s">
+                                                                <div className="count-number">
+                                                                    { data.finish }
+                                                                </div>
+                                                                <div className="count-descr">
+                                                                    <span className="count-title">Finish</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
+                                                    
+                                                    {/* <!-- Counter Item --> */}
+                                                    <div className="col-md-4 col-lg-4 mb-md-30">
+                                                        <div className="count-item">
+                                                            <div className="count-bg wow scalexIn"></div>
+                                                            <div className="relative wow fadeIn" data-wow-delay="1.2s">
+                                                                <div className="count-number">
+                                                                    { data.customer }
+                                                                </div>
+                                                                <div className="count-descr">
+                                                                    <span className="count-title">Coffee Cups</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>
-                                        </div>
-                                        
-                                        {/* <!-- Counter Item --> */}
-                                        <div className="col-md-4 col-lg-4 mb-md-30">
-                                            <div className="count-item">
-                                                <div className="count-bg wow scalexIn"></div>
-                                                <div className="relative wow fadeIn" data-wow-delay="1.1s">
-                                                    <div className="count-number">
-                                                        { data.finish }
-                                                    </div>
-                                                    <div className="count-descr">
-                                                        <span className="count-title">Finish</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        {/* <!-- Counter Item --> */}
-                                        <div className="col-md-4 col-lg-4 mb-md-30">
-                                            <div className="count-item">
-                                                <div className="count-bg wow scalexIn"></div>
-                                                <div className="relative wow fadeIn" data-wow-delay="1.2s">
-                                                    <div className="count-number">
-                                                        { data.customer }
-                                                    </div>
-                                                    <div className="count-descr">
-                                                        <span className="count-title">Coffee Cups</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
+                                        </>
+                                }
                                 
                             </div>
                         </section>     
                         
-                        
-                        {/* <!-- Collection Section --> */}
-                        <section className="page-section bg-dark bg-dark-alfa-70 bg-scroll light-content" data-background="/images/full-width-images/section-bg-2.jpg">
-                            <div className="container relative">
-                                
-                                <div className="row">
-                                    <div className=" col-lg-8 offset-lg-2 wow fadeInUpShort">
-                                        
-                                        <div className="text-center mb-50 mb-sm-20">
-                                            <h2 className="section-title">Make Your Living Beautiful</h2>
-                                        </div>
-                                        
-                                        <div className="text-slider">
+                        {
+                            product_name == 'multicol' ? 
+                                <></>
+                                :
+                                <>
+                                    {/* <!-- Collection Section --> */}
+                                    <section className="page-section bg-dark bg-dark-alfa-70 bg-scroll light-content" data-background="/images/full-width-images/section-bg-2.jpg">
+                                        <div className="container relative">
                                             
-                                            {/* <!-- Slide Item --> */}
-                                            <div>
-                                                <blockquote className="testimonial">
-                                                    <p>
-                                                        Ziniam laminates is an market leader in laminates distribution industry with unlimited options for customers to choose from. We have got wide range of products which dont only enhances the interior's presenability but freshens the complete aura of your surrounding. Have some glimps of our extraordinary colelction of laminates.
-                                                    </p>
-                                                </blockquote>
-                                                <div style={{ width: "100%", textAlign: "center", marginTop: "40px" }}>
-                                                    <Link href={ `/products/${ product_name }/collection` }>
-                                                        <a className="btn btn-mod btn-w btn-large btn-round">Explore Collection</a>
-                                                    </Link>
+                                            <div className="row">
+                                                <div className=" col-lg-8 offset-lg-2 wow fadeInUpShort">
+                                                    
+                                                    <div className="text-center mb-50 mb-sm-20">
+                                                        <h2 className="section-title">Make Your Living Beautiful</h2>
+                                                    </div>
+                                                    
+                                                    <div className="text-slider">
+                                                        
+                                                        {/* <!-- Slide Item --> */}
+                                                        <div>
+                                                            <blockquote className="testimonial">
+                                                                <p>
+                                                                    Ziniam laminates is an market leader in laminates distribution industry with unlimited options for customers to choose from. We have got wide range of products which dont only enhances the interior's presenability but freshens the complete aura of your surrounding. Have some glimps of our extraordinary colelction of laminates.
+                                                                </p>
+                                                            </blockquote>
+                                                            <div style={{ width: "100%", textAlign: "center", marginTop: "40px" }}>
+                                                                <Link href={ `/products/${ product_name }/collection` }>
+                                                                    <a className="btn btn-mod btn-w btn-large btn-round">Explore Collection</a>
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>                            
+                                                                            
                                                 </div>
                                             </div>
                                             
-                                        </div>                            
-                                                                
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </section>
-                        
+                                        </div>
+                                    </section>
+                                </>
+                        }
                         
                         {/* <!-- Divider --> */}
                         <hr className="mt-0 mb-0" />
